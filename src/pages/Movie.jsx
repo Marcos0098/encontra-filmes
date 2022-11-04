@@ -20,7 +20,6 @@ const Movie = () => {
 
     setMovie(data);
   }
-
   const formatCurrency = (number) => {
     return number.toLocaleString("en-US", {
       style: "currency",
